@@ -4,25 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><bdo dir="rtl">BANGLADESH</bdo></h1>
-    <time datetime="2023-06-19">June 19,2023</time>
-    <h1>NEWS<sup>PA</sup>PER</h1>
+    <!--This is a navbar section-->
+    <header>
+        <nav>
+            <div class="menu-container">
+                <div class="logo">
+                    <img class="logo-photo" src="./logo/logo-light.png" alt="">
+                </div>
+                <div class="menus">
+                <li class="item">home-1</li>
+                <li class="item">home-2 </li>
+                <li class="item">home-3</li>
+                <li class="item">home-4</li>
+            </div>
+            </div>
+        </nav>
 
-    <h2><abbr title="this is India">COUNTRY</abbr></h2>
-    <label for="disk">pg</label>
-    <meter id="disk" value="0.5"></meter>
-    <p></p>
-    <label for="file">Downloading progress:</label>
-    <progress> 32% </progress>
-    <details>
-        <summary>It is Hidden</summary>
-        <p>Lorem ipsum dolor sit amet.</p>
-    </details>
+    </header>
+    <main>
+        <section>
+            <div class="banner-container">
+                <div class="banner-text">
+                    <h1 class="title">Better design for <br>your digital products</h1>
+                    <p class="description">We are a creative studio specializing in UI/UX design, development and strategy.</p>
+                    <hr/>
+                    <button class="btn">Explore More</button>
+                    
+                </div>
+                <div class="banner-photo">
+                    <img class="banner-img"src="./images/banner.png" alt="">
 
+                </div>
+            </div>
+        </section>
+        <!--This is about us section-->
+        <section>
+            <h1 class="title about-title">About Us</h1>
+            <div class="about-container">
+                <div class="about-info">
+                    <details>
+                        <summary class="summary">We grow brands through <br>
+                            bold & strategic creative
+                            
+                        </summary>
+                    
+                        <div class="para-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    </details>
+                        <button class="btn">Contact Us</button>
+                </div>
+                <div class="about-photo">
+                    <img class="banner-img" src="./images/section.png" alt="">
+                </div>
+            </div>
+        </section>
 
-    <h1 class="test">Hello World</h1>
+        <!--This is services section-->
+        <section> 
+            <div class="service-total-container">
+
+            
+            <h1 class="title about-title">Our Services</h1>
+            <div class="service-container">
+                <div class="box">
+                    <img class="icon" src="./icon/0.png" alt="">
+                    <h2 class="box-title">Web development</h2>
+                    <p class="box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed aliquid ullam dolorum nisi quidem odio voluptate molestiae? Earum, voluptatem?</p>
+                    <button class="btn box-btn">Details</button>
+                </div>
+                <div class="box">
+                    <img class="icon" src="./icon/1.png" alt="">
+                    <h2 class="box-title">Web development</h2>
+                    <p class="box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed aliquid ullam dolorum nisi quidem odio voluptate molestiae? Earum, voluptatem?</p>
+                    <button class="btn box-btn">Details</button>
+                </div>
+                <div class="box">
+                    <img class="icon" src="./icon/2.png" alt="">
+                    <h2 class="box-title">Web development</h2>
+                    <p class="box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed aliquid ullam dolorum nisi quidem odio voluptate molestiae? Earum, voluptatem?</p>
+                    <button class="btn box-btn">Details</button>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <h4>&#169 All rights reserved</h4>
+    </footer>
 </body>
 </html>
